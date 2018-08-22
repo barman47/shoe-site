@@ -6,7 +6,11 @@
   	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "node main.js"
-  	},
+	},
+	"engines": {
+		"node": "^8.7.0",
+		"npm": "^6.1.0"	
+	},
   	"keywords": [
     	"Shoes",
     	"Nodejs",
