@@ -13,7 +13,8 @@ $(document).ready(function () {
     $('.parallax').parallax();
     $('.tooltipped').tooltip();
     $('.scrollspy').scrollSpy();
-
+    $('.modal').modal();
+    $('select').formSelect();
     $('#top').on('click', function (event) {
         if (this.hash !== '') {
             event.preventDefault();

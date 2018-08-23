@@ -7,11 +7,6 @@ p {
   line-height: 2rem;
 }
 
-/* .links:hover, side-links:hover {
-	background-color: #008579 !important;
-	color: #ffffff !important;
-}  */
-
 nav ul a:hover {
 	background-color: #008579 !important;
 	color: #ffffff !important;
@@ -47,36 +42,36 @@ nav ul a:hover {
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+  	min-height: 380px;
+  	line-height: 0;
+  	height: auto;
+  	color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+  	.parallax-container .section {
+    	width: 100%;
+  	}
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+  	.parallax-container .section {
+    	position: absolute;
+    	top: 40%;
+  	}
+  	#index-banner .section {
+    	top: 10%;
+  	}
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+  	#index-banner .section {
+    	top: 0;
+  	}	
 }
 
 .icon-block {
-  padding: 0 15px;
+  	padding: 0 15px;
 }
 .icon-block .material-icons {
-  font-size: inherit;
+  	font-size: inherit;
 }
 
 #shoes {
@@ -86,8 +81,21 @@ nav ul a:hover {
 	padding: 10px 0px;
 }
 
+.card-title {
+	/* background-color: rgba(255, 255, 255, 0.5); */
+	background-color: rgba(197, 197, 197, 0.5);
+	color: #ffffff !important;
+	font-weight: 300 !important;
+	padding: 5px !important;
+}
+
 .purchase {
 	background-color: #26a69a !important;
+	color: #f5f5f5 !important;
+}
+
+.purchase:hover {
+	background-color: #008579 !important;
 }
 
 .parallax-header {
@@ -99,11 +107,15 @@ nav ul a:hover {
 }
 
 .top-btn {
-	background-color: orange !important;
+	background-color: #cc2b00 !important;
+}
+
+.top-btn:hover {
+	background-color: #e43d10 !important;
 }
 
 #footerLinks {
-	display: inline-block !important;
+		display: inline-block !important;
 }
 
 footer.page-footer {
