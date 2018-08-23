@@ -1,8 +1,14 @@
 $(document).ready(function () {
-    $('.carousel.carousel-slider').carousel({
-      	fullWidth: true,
-      	indicators: true
-    });
+    // $('.carousel.carousel-slider').carousel({
+    //   	fullWidth: true,
+    //   	indicators: true,
+          
+    // });
+    // setInterval(function () {
+    //     $('.carousel.carousel-slider').carousel('next');
+    // }, 4000);
+    
+    $('.slider').slider();
     $('.sidenav').sidenav();
     $('.parallax').parallax();
     $('.tooltipped').tooltip();

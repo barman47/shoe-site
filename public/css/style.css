@@ -7,6 +7,16 @@ p {
   line-height: 2rem;
 }
 
+/* .links:hover, side-links:hover {
+	background-color: #008579 !important;
+	color: #ffffff !important;
+}  */
+
+nav ul a:hover {
+	background-color: #008579 !important;
+	color: #ffffff !important;
+}
+
 .sidenav-trigger {
 	color: #c5c5c5;
 }
@@ -25,6 +35,10 @@ p {
 
 .side-links {
 	color: #ffffff !important;
+}
+
+.slider .indicators .indicator-item.active {
+	background-color: #008579;
 }
 
 #slider {
