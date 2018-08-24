@@ -41,6 +41,18 @@ nav ul a:hover {
   	margin-bottom: 50px; 
 }
 
+h4 i {
+	color: #008579;
+	cursor: pointer;
+}
+
+h4 i:hover {
+	color: #ff0000;
+}
+
+.input-field > .prefix{
+	color: #c5c5c5 !important;
+}
 .parallax-container {
   	min-height: 380px;
   	line-height: 0;
@@ -87,6 +99,11 @@ nav ul a:hover {
 	color: #ffffff !important;
 	font-weight: 300 !important;
 	padding: 5px !important;
+}
+
+.tags {
+	/* color: rgba(255, 0, 0, 0.7) !important;*/
+	color: rgb(255, 255,255);
 }
 
 .purchase {
