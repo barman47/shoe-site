@@ -94,7 +94,6 @@ h4 i:hover {
 }
 
 .card-title {
-	/* background-color: rgba(255, 255, 255, 0.5); */
 	background-color: rgba(197, 197, 197, 0.5);
 	color: #ffffff !important;
 	font-weight: 300 !important;
@@ -102,9 +101,17 @@ h4 i:hover {
 }
 
 .tags {
-	/* color: rgba(255, 0, 0, 0.7) !important;*/
 	color: rgb(255, 255,255);
 }
+
+/* .modal-header {
+	position: fixed;
+	width: 100%;
+	background-color: green;
+	top: 0;
+	z-index: 1;
+	margin-bottom: 10px;
+} */
 
 .purchase {
 	background-color: #26a69a !important;
