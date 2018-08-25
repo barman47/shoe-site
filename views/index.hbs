@@ -29,7 +29,6 @@
 				</div>
 			</nav>
 		</div>
-
 		<section class="container" id="slider">
 			<div class="row">
 				<div class="col s12">
@@ -133,8 +132,7 @@
 											<button id="shoe1Submit" type="submit" class="btn left waves-effect waves-white">Place Order</button>
 										</div>
 									</form>
-								</div>	
-								
+								</div>		
 							</div>
 						</div>
 						<div class="card-content">
@@ -204,7 +202,51 @@
 						<div class="card-image">
 							<img src="img/womanShoe3.jpg" class="responsive-img" alt="Woman shoe on bed">
 							<span class="card-title"><i class="material-icons tags">local_offer</i>&#8358; 15,000</span>
-							<a class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="15000" class="material-icons purchase">shopping_cart</i></a>
+							<a href="#shoeModal3" class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="15000" class="material-icons purchase">shopping_cart</i></a>
+							<div class="modal modal-fixed-footer section" id="shoe1Moda3">
+								<div class="modal-content">
+									<h4>Product Details <i class="material-icons right closeModal">close</i></h4>
+									<h5 id="shoe3Price">Price: &#8358; 15,000</h5>
+									<form method="POST" name="shoe3Form" class="container">
+										<div class="input-field">
+											<i class="material-icons prefix">account_circle</i>
+											<input type="text" class="form3Inputs" id="shoe3CustomerName" name="shoe3CustomerName" required>
+											<label for="shoe3CustomerName">Customer Name</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">mail_outline</i>
+											<input type="email" class="form3Inputs" id="shoe3Email" name="shoe3Email" required>
+											<label for="Shoe3Email">Email</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">call</i>
+											<input type="text" class="form3Inputs" id="shoe3Phone" name="shoe3Phone" required>
+											<label for="shoe3Phone">Phone</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">plus_one</i>
+											<input type="text" class="form3Inputs" id="shoe3Quantity" name="shoe3Quantity" required>
+											<label for="shoe3Quantity">Quantity</label>
+										</div>
+										<div class="input-field col12">
+											<i class="material-icons prefix">palette</i>
+											<select name="shoe3Color" class="form3Inputs" id="Shoe3Color">
+												<option disabled selected value="">Choose a Colour</option>
+												<option value="1">Red</option>
+												<option value="2">Yellow</option>
+												<option value="3">Black</option>
+												<option value="4">Blue</option>
+											</select>
+										</div>
+										<div class="input-field">
+											<h4>Total: &#8358;<span id="shoe3Total">0</span></h4>
+										</div>
+										<div class="input-field">
+											<button id="shoe3Submit" type="submit" class="btn left waves-effect waves-white">Place Order</button>
+										</div>
+									</form>
+								</div>	
+							</div>
 						</div>
 						<div class="card-content">
 							<p>I am a very simple shoe. I am good for wearig to parties and burials and to market sometimes.</p>
@@ -219,7 +261,48 @@
 						<div class="card-image">
 							<img src="img/nikeShoes.jpg" class="responsive-img" alt="Brown Leather Shoes">
 							<span class="card-title"><i class="material-icons tags">local_offer</i>&#8358; 3,500</span>
-							<a class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="3500" class="material-icons purchase">shopping_cart</i></a>
+							<a href="#shoeModal4" class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="3500" class="material-icons purchase">shopping_cart</i></a>
+							<div class="modal modal-fixed-footer section" id="shoe4Modal">
+								<div class="modal-content">
+									<h4>Product Details <i class="material-icons right closeModal">close</i></h4>
+									<h5 id="shoe4Price">Price: &#8358; 3,500</h5>
+									<form method="POST" name="shoe4Form" class="container">
+										<div class="input-field">
+											<i class="material-icons prefix">account_circle</i>
+											<input type="text" class="form4Inputs" id="shoe4CustomerName" name="shoe4CustomerName" required>
+											<label for="shoe4CustomerName">Customer Name</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">mail_outline</i>
+											<input type="email" class="form4Inputs" id="shoe4Email" name="shoe4Email" required>
+											<label for="Shoe4Email">Email</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">call</i>
+											<input type="text" class="form4Inputs" id="shoe4Phone" name="shoe4Phone" required>
+											<label for="shoe4Phone">Phone</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">plus_one</i>
+											<input type="text" class="form4Inputs" id="shoe4Quantity" name="shoe4Quantity" required>
+											<label for="shoe4Quantity">Quantity</label>
+										</div>
+										<div class="input-field col12">
+											<i class="material-icons prefix">palette</i>
+											<select name="shoe4Color" class="form4Inputs" id="Shoe4Color">
+												<option disabled selected value="">Choose a Colour</option>
+												<option value="1">Black</option>
+											</select>
+										</div>
+										<div class="input-field">
+											<h4>Total: &#8358;<span id="shoe4Total">0</span></h4>
+										</div>
+										<div class="input-field">
+											<button id="shoe4Submit" type="submit" class="btn left waves-effect waves-white">Place Order</button>
+										</div>
+									</form>
+								</div>	
+							</div>
 						</div>
 						<div class="card-content">
 							<p>I am a very simple shoe. I am good for wearig to parties and burials and to market sometimes.</p>
@@ -231,7 +314,50 @@
 						<div class="card-image">
 							<img src="img/whiteShoes.jpg" class="responsive-img" alt="Red and Black Shoes">
 							<span class="card-title"><i class="material-icons tags">local_offer</i>&#8358; 10,000</span>
-							<a class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="10000" class="material-icons purchase">shopping_cart</i></a>
+							<a href="#shoeModal5" class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="10000" class="material-icons purchase">shopping_cart</i></a>
+							<div class="modal modal-fixed-footer section" id="shoe5Modal">
+								<div class="modal-content">
+									<h4>Product Details <i class="material-icons right closeModal">close</i></h4>
+									<h5 id="shoe5Price">Price: &#8358; 10,000</h5>
+									<form method="POST" name="shoe5Form" class="container">
+										<div class="input-field">
+											<i class="material-icons prefix">account_circle</i>
+											<input type="text" class="form5Inputs" id="shoe5CustomerName" name="shoe5CustomerName" required>
+											<label for="shoe5CustomerName">Customer Name</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">mail_outline</i>
+											<input type="email" class="form5Inputs" id="shoe5Email" name="shoe5Email" required>
+											<label for="Shoe5Email">Email</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">call</i>
+											<input type="text" class="form5Inputs" id="shoe5Phone" name="shoe5Phone" required>
+											<label for="shoe5Phone">Phone</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">plus_one</i>
+											<input type="text" class="form5Inputs" id="shoe5Quantity" name="shoe5Quantity" required>
+											<label for="shoe5Quantity">Quantity</label>
+										</div>
+										<div class="input-field col12">
+											<i class="material-icons prefix">palette</i>
+											<select name="shoe5Color" class="form5Inputs" id="Shoe5Color">
+												<option disabled selected value="">Choose a Colour</option>
+												<option value="1">White</option>
+												<option value="2">Black</option>
+												<option value="2">Blue</option>
+											</select>
+										</div>
+										<div class="input-field">
+											<h4>Total: &#8358;<span id="shoe5Total">0</span></h4>
+										</div>
+										<div class="input-field">
+											<button id="shoe5Submit" type="submit" class="btn left waves-effect waves-white">Place Order</button>
+										</div>
+									</form>
+								</div>	
+							</div>
 						</div>
 						<div class="card-content">
 							<p>I am a very simple shoe. I am good for wearig to parties and burials and to market sometimes.</p>
@@ -243,7 +369,49 @@
 						<div class="card-image">
 							<img src="img/brownShoe.jpg" class="responsive-img" alt="Woman shoe on bed">
 							<span class="card-title"><i class="material-icons tags">local_offer</i>&#8358; 15,000</span>
-							<a class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="15000" class="material-icons purchase">shopping_cart</i></a>
+							<a href="#shoeModal6" class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="15000" class="material-icons purchase">shopping_cart</i></a>
+							<div class="modal modal-fixed-footer section" id="shoe1Modal6">
+								<div class="modal-content">
+									<h4>Product Details <i class="material-icons right closeModal">close</i></h4>
+									<h5 id="shoe6Price">Price: &#8358; 15,000</h5>
+									<form method="POST" name="shoe6Form" class="container">
+										<div class="input-field">
+											<i class="material-icons prefix">account_circle</i>
+											<input type="text" class="form6Inputs" id="shoe6CustomerName" name="shoe6CustomerName" required>
+											<label for="shoe6CustomerName">Customer Name</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">mail_outline</i>
+											<input type="email" class="form6Inputs" id="shoe6Email" name="shoe6Email" required>
+											<label for="Shoe6Email">Email</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">call</i>
+											<input type="text" class="form6Inputs" id="shoe6Phone" name="shoe6Phone" required>
+											<label for="shoe6Phone">Phone</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">plus_one</i>
+											<input type="text" class="form6Inputs" id="shoe6Quantity" name="shoe6Quantity" required>
+											<label for="shoe6Quantity">Quantity</label>
+										</div>
+										<div class="input-field col12">
+											<i class="material-icons prefix">palette</i>
+											<select name="shoe6Color" class="form6Inputs" id="Shoe1Color">
+												<option disabled selected value="">Choose a Colour</option>
+												<option value="1">Brown</option>
+												<option value="2">Black</option>
+											</select>
+										</div>
+										<div class="input-field">
+											<h4>Total: &#8358;<span id="shoe6Total">0</span></h4>
+										</div>
+										<div class="input-field">
+											<button id="shoe6Submit" type="submit" class="btn left waves-effect waves-white">Place Order</button>
+										</div>
+									</form>
+								</div>	
+							</div>
 						</div>
 						<div class="card-content">
 							<p>I am a very simple shoe. I am good for wearig to parties and burials and to market sometimes.</p>
@@ -258,7 +426,50 @@
 						<div class="card-image">
 							<img src="img/sneakers.jpg" class="responsive-img" alt="Sneakers on rack">
 							<span class="card-title"><i class="material-icons tags">local_offer</i>&#8358; 10,000</span>
-							<a class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="10000" class="material-icons purchase">shopping_cart</i></a>
+							<a href="#shoeModal7" class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="10000" class="material-icons purchase">shopping_cart</i></a>
+							<div class="modal modal-fixed-footer section" id="shoe7Modal">
+								<div class="modal-content">
+									<h4>Product Details <i class="material-icons right closeModal">close</i></h4>
+									<h5 id="shoe7Price">Price: &#8358; 10,000</h5>
+									<form method="POST" name="shoe7Form" class="container">
+										<div class="input-field">
+											<i class="material-icons prefix">account_circle</i>
+											<input type="text" class="form7Inputs" id="shoe7CustomerName" name="shoe7CustomerName" required>
+											<label for="shoe7CustomerName">Customer Name</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">mail_outline</i>
+											<input type="email" class="form7Inputs" id="shoe7Email" name="shoe7Email" required>
+											<label for="Shoe7Email">Email</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">call</i>
+											<input type="text" class="form7Inputs" id="shoe7Phone" name="shoe7Phone" required>
+											<label for="shoe7Phone">Phone</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">plus_one</i>
+											<input type="text" class="form7Inputs" id="shoe7Quantity" name="shoe7Quantity" required>
+											<label for="shoe7Quantity">Quantity</label>
+										</div>
+										<div class="input-field col12">
+											<i class="material-icons prefix">palette</i>
+											<select name="shoe7Color" class="form7Inputs" id="Shoe7Color">
+												<option disabled selected value="">Choose a Colour</option>
+												<option value="1">White</option>
+												<option value="2">Black</option>
+												<option value="3">Red</option>
+											</select>
+										</div>
+										<div class="input-field">
+											<h4>Total: &#8358;<span id="shoe7Total">0</span></h4>
+										</div>
+										<div class="input-field">
+											<button id="shoe7Submit" type="submit" class="btn left waves-effect waves-white">Place Order</button>
+										</div>
+									</form>
+								</div>	8
+							</div>
 						</div>
 						<div class="card-content">
 							<p>I am a very simple shoe. I am good for wearig to parties and burials and to market sometimes.</p>
@@ -270,7 +481,50 @@
 						<div class="card-image">
 							<img src="img/adidas.jpg" class="responsive-img" alt="Adidas Shoe">
 							<span class="card-title"><i class="material-icons tags">local_offer</i>&#8358; 8,000</span>
-							<a class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="8000" class="material-icons purchase">shopping_cart</i></a>
+							<a href="#shoeModal8" class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="8000" class="material-icons purchase">shopping_cart</i></a>
+							<div class="modal modal-fixed-footer section" id="shoe1Modal8">
+								<div class="modal-content">
+									<h4>Product Details <i class="material-icons right closeModal">close</i></h4>
+									<h5 id="shoe8Price">Price: &#8358; 8,000</h5>
+									<form method="POST" name="shoe8Form" class="container">
+										<div class="input-field">
+											<i class="material-icons prefix">account_circle</i>
+											<input type="text" class="form8Inputs" id="shoe8CustomerName" name="shoe8CustomerName" required>
+											<label for="shoe1CustomerName">Customer Name</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">mail_outline</i>
+											<input type="email" class="form8Inputs" id="shoe8Email" name="shoe8Email" required>
+											<label for="Shoe8Email">Email</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">call</i>
+											<input type="text" class="form8Inputs" id="shoe8Phone" name="shoe8Phone" required>
+											<label for="shoe8Phone">Phone</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">plus_one</i>
+											<input type="text" class="form8Inputs" id="shoe8Quantity" name="shoe8Quantity" required>
+											<label for="shoe8Quantity">Quantity</label>
+										</div>
+										<div class="input-field col12">
+											<i class="material-icons prefix">palette</i>
+											<select name="shoe8Color" class="form8Inputs" id="Shoe8Color">
+												<option disabled selected value="">Choose a Colour</option>
+												<option value="1">Blue</option>
+												<option value="2">Black</option>
+												<option value="3">Red</option>
+											</select>
+										</div>
+										<div class="input-field">
+											<h4>Total: &#8358;<span id="shoe8Total">0</span></h4>
+										</div>
+										<div class="input-field">
+											<button id="shoe8Submit" type="submit" class="btn left waves-effect waves-white">Place Order</button>
+										</div>
+									</form>
+								</div>	
+							</div>
 						</div>
 						<div class="card-content">
 							<p>I am a very simple shoe. I am good for wearig to parties and burials and to market sometimes.</p>
@@ -282,7 +536,52 @@
 						<div class="card-image">
 							<img src="img/womanShoe1.jpg" class="responsive-img" alt="White femal shoe">
 							<span class="card-title"><i class="material-icons tags">local_offer</i>&#8358; 25,000</span>
-							<a class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="25000" class="material-icons purchase">shopping_cart</i></a>
+							<a href="#shoeModal9" class="btn btn-floating halfway-fab waves-effect waves-light red tooltipped" data-tooltip="Purchase Item"><i data-price="25000" class="material-icons purchase">shopping_cart</i></a>
+							<div class="modal modal-fixed-footer section" id="shoe1Modal9">
+								<div class="modal-content">
+									<h4>Product Details <i class="material-icons right closeModal">close</i></h4>
+									<h5 id="shoe9Price">Price: &#8358; 25,000</h5>
+									<form method="POST" name="shoe9Form" class="container">
+										<div class="input-field">
+											<i class="material-icons prefix">account_circle</i>
+											<input type="text" class="form9Inputs" id="shoe9CustomerName" name="shoe9CustomerName" required>
+											<label for="shoe9CustomerName">Customer Name</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">mail_outline</i>
+											<input type="email" class="form9Inputs" id="shoe9Email" name="shoe9Email" required>
+											<label for="Shoe9Email">Email</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">call</i>
+											<input type="text" class="form9Inputs" id="shoe9Phone" name="shoe9Phone" required>
+											<label for="shoe9Phone">Phone</label>
+										</div>
+										<div class="input-field">
+											<i class="material-icons prefix">plus_one</i>
+											<input type="text" class="form9Inputs" id="shoe9Quantity" name="shoe9Quantity" required>
+											<label for="shoe9Quantity">Quantity</label>
+										</div>
+										<div class="input-field col12">
+											<i class="material-icons prefix">palette</i>
+											<select name="shoe9Color" class="form9Inputs" id="Shoe9Color">
+												<option disabled selected value="">Choose a Colour</option>
+												<option value="1">White</option>
+												<option value="2">Black</option>
+												<option value="3">Blue</option>
+												<option value="4">Red</option>
+												<option value="5">Yellow</option>
+											</select>
+										</div>
+										<div class="input-field">
+											<h4>Total: &#8358;<span id="shoe9Total">0</span></h4>
+										</div>
+										<div class="input-field">
+											<button id="shoe9Submit" type="submit" class="btn left waves-effect waves-white">Place Order</button>
+										</div>
+									</form>
+								</div>	
+							</div>
 						</div>
 						<div class="card-content">
 							<p>I am a very simple shoe. I am good for wearig to parties and burials and to market sometimes.</p>
