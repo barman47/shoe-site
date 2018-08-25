@@ -200,9 +200,9 @@ function validate (form) {
                     html: 'Please provide a valid input'
                 });
                 inputs[i][0].focus();
-                break;
             }
         }, false);
+        break;
     }
 }
 
