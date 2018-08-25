@@ -1,26 +1,27 @@
 {
-  	"name": "shoe-site",
-  	"version": "1.0.0",
-  	"description": "A simple shoe showcase web site",
-  	"main": "main.js",
-  	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node main.js"
-	},
-	"engines": {
-		"node": "^8.7.0",
-		"npm": "^6.1.0"	
-	},
-  	"keywords": [
-    	"Shoes",
-    	"Nodejs",
-    	"WebDevelopment",
-    	"JavaScript"
-  	],
-  	"author": "Uzoanya Dominic",
-  	"license": "ISC",
-  	"dependencies": {
-    	"express": "^4.16.3",
-    	"express-handlebars": "^3.0.0"
-  	}
+  "name": "shoe-site",
+  "version": "1.0.0",
+  "description": "A simple shoe showcase web site",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "engines": {
+    "node": "^8.7.0",
+    "npm": "^6.1.0"
+  },
+  "keywords": [
+    "Shoes",
+    "Nodejs",
+    "WebDevelopment",
+    "JavaScript"
+  ],
+  "author": "Uzoanya Dominic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-favicon": "^2.0.1",
+    "express-handlebars": "^3.0.0"
+  }
 }
