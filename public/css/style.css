@@ -12,6 +12,15 @@ nav ul a:hover {
 	color: #ffffff !important;
 }
 
+.logo {
+	display: inline-block;
+	max-height: 60px;
+	max-width: 60px;
+	/* border: 2px solid #008579; */
+	border-radius: 50%;
+	background-color: #008579;
+}
+
 .sidenav-trigger {
 	color: #c5c5c5;
 }
@@ -140,6 +149,14 @@ h4 i:hover {
 
 #footerLinks {
 		display: inline-block !important;
+}
+
+.myLink {
+	color: #ffffff;
+}
+
+.myLink:visited {
+	color: #ffffff;
 }
 
 footer.page-footer {
