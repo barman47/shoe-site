@@ -1,3 +1,6 @@
+body {
+	cursor: default;
+}
 nav ul a, nav .brand-logo {
   /* color: #444; */
   color: #008579;
@@ -10,6 +13,13 @@ p {
 nav ul a:hover {
 	background-color: #008579 !important;
 	color: #ffffff !important;
+}
+
+#brand-name {
+	font-size: 25px !important;
+	margin-right: 10px;
+	color: #008579;
+	font-weight: 400;
 }
 
 .logo {
